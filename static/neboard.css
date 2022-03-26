@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	color: #fe8;
+	font-size: 16px;
+}
+
+header {
+	padding: 10px 0;
+}
+
+h1, .home {
+	display: inline-block;
+	font-weight: normal;
+	font-size: 32px;
+	margin: 0 .5em;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.post {
+	border: 2px solid #fe8;
+	border-radius: 3px;
+	margin: 10px 3px;
+	padding: 3px;
+}
+
+.post-head {
+	border-bottom: 1px solid #fe8;
+	margin-bottom: 3px;
+}
+
+.post-head, .navigation {
+	background-image: linear-gradient(90deg, rgba(255, 238, 136, 0), rgba(255, 238, 136, 0.3), rgba(255, 238, 136, 0));
+}
+
+.post-attachments {
+	margin-bottom: 3px;
+}
+
+.post-attachment {
+	margin-right: 3px;
+	text-align: center;
+}
+
+.post-attachment, .post-attachments, .post-body-text {
+	display: inline-block;
+}
+
+.post-body-text {
+	margin-top: 3px;
+	vertical-align: top;
+}
+
+.home, .post-id, .navigation-left, .navigation-right {
+	color: #fe8;
+	text-decoration: none;
+}
+
+.home, .post-id, .post-title {
+	font-weight: bold;
+}
+
+.home, .post-id, .post-date, .post-count, .post-title {
+	padding: 0 3px;
+}
+
+.post-date {
+	color: #f88;
+}
+
+.post-count {
+	color: #f8f;
+}
+
+header a, .post a {
+	color: #8ef;
+}
+
+.post a:visited {
+	color: #8e8;
+}
+
+.navigation {
+	position: relative;
+}
+
+.navigation-left, .navigation-right, .navigation-counter {
+	display: inline-block;
+	margin: 10px 0;
+	padding: 0;
+	width: 50%;
+}
+
+.navigation-left {
+	text-align: left;
+}
+
+.navigation-right {
+	text-align: right;
+}
+
+.navigation-counter {
+	position: absolute;
+	left; 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}

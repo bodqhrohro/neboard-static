@@ -1,0 +1,15 @@
+[Unit]
+Description=Neboard Static Backup
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node index.js
+TimeoutStopSec=5
+KillMode=process
+PrivateTmp=true
+WorkingDirectory=/root/neboard-static
+
+[Install]
+WantedBy=multi-user.target

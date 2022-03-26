@@ -1,0 +1,26 @@
+{
+  "name": "neboard-static",
+  "version": "1.0.0",
+  "description": "A static frontend for a backup of Neboard data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodqhrohro/neboard-static.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "bodqhrohro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bodqhrohro/neboard-static/issues"
+  },
+  "homepage": "https://github.com/bodqhrohro/neboard-static#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "react-dom": "^17.0.2"
+  }
+}
